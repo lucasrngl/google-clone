@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #e8eaed;
+    background-color: #202124;
+}
+
+header {
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header div {
+    padding-right: 3px;
+}
+
+header a {
+    padding-left: 12px;
+    color: #fff;
+}
+
+header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header img {
+    padding-left: 26px;
+}
+
+main > div {
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div img {
+   display: inline-block;
+   align-self: flex-end;
+}
+
+form {
+    padding-top: 26px;
+    text-align: center;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    width: 584px;
+    margin: auto;
+    padding: 0 20px 0 16px;
+    border: 1px solid #5f6368;
+    border-radius: 3rem;
+}
+
+form div img:first-child {
+    height: 14.5px;
+}
+
+form div img:last-child {
+    height: 18px;
+}
+
+form div input {
+    height: 34px;
+    width: 487px;
+    background-color: #202124;
+    border: none;
+    color: #e8eaed;
+    font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+form button {
+    margin-top: 29px;
+    margin-right: 8px;
+    padding: 10px 18px;
+    font-size: 14px;
+    background-color: #303134;
+    color: #e8eaed;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+main p {
+    text-align: center;
+    margin-top: 30px;
+    color: #bdc1c6;
+    height: 325px;
+}
+
+p span {
+    color: #8ab4f8;
+}
+
+footer {
+    height: 94px;
+    background-color: #171717;
+    color: #9aa0a6;
+    font-size: 15px;
+}
+
+div#above {
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+}
+
+div#below {
+    padding: 15px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div a {
+    font-size: 14px;
+    padding: 0 14px;
+    color: #9aa0a6;
+}
